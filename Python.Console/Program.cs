@@ -24,5 +24,6 @@ RunHelloWorld(env);
 
 static void RunHelloWorld(IPythonEnvironment env)
 {
-  var helloWorld = env.HelloWorld();
+    var helloWorld = env.HelloWorld();
+    helloWorld.FormatName("Python");
 }
