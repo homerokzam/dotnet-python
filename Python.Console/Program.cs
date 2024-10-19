@@ -25,4 +25,5 @@ RunHelloWorld(env);
 static void RunHelloWorld(IPythonEnvironment env)
 {
   var helloWorld = env.HelloWorld();
+  Console.WriteLine(helloWorld.FormatName("Homero"));
 }
