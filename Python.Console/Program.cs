@@ -9,10 +9,10 @@ var builder = Host.CreateDefaultBuilder(args)
       services
           .WithPython()
           .WithHome(home)
-          .FromConda("/opt/homebrew/Caskroom/miniconda/base")
+          .FromConda("/opt/homebrew/Caskroom/miniconda/base/condabin/conda")
           .WithCondaEnvironment("projects_env");
-          // .FromEnvironmentVariable("Python3_ROOT_DIR", "3.12")
           // .FromMacOSInstallerLocator("3.12")
+          // .FromEnvironmentVariable("Python3_ROOT_DIR", "3.12")
           // .WithPipInstaller();
   });
 
