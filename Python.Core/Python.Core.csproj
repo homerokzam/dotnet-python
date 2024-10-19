@@ -14,6 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="CSnakes.Runtime" Version="1.0.21" />
+    <PackageReference Include="CSnakes.Runtime" Version="1.*-*" />
   </ItemGroup>
 </Project>
